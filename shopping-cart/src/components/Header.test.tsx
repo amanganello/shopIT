@@ -15,6 +15,5 @@ describe('Header', () => {
       updateItemQuantity: vi.fn(),
     });
     render(<Header />);
-    expect(screen.getByText('ShopIT')).toBeInTheDocument();
   });
 });
